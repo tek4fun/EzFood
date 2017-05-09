@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D446F01EC15BC60072E693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D446EF1EC15BC60072E693 /* AppDelegate.swift */; };
+		91D446F21EC15BC60072E693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D446F11EC15BC60072E693 /* ViewController.swift */; };
+		91D446F51EC15BC60072E693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D446F31EC15BC60072E693 /* Main.storyboard */; };
+		91D446F71EC15BC60072E693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D446F61EC15BC60072E693 /* Assets.xcassets */; };
+		91D446FA1EC15BC60072E693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D446F81EC15BC60072E693 /* LaunchScreen.storyboard */; };
+		91D447051EC15BC60072E693 /* EzFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D447041EC15BC60072E693 /* EzFoodTests.swift */; };
+		91D447101EC15BC60072E693 /* EzFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4470F1EC15BC60072E693 /* EzFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D447011EC15BC60072E693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D446E41EC15BC50072E693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D446EB1EC15BC50072E693;
+			remoteInfo = EzFood;
+		};
+		91D4470C1EC15BC60072E693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D446E41EC15BC50072E693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D446EB1EC15BC50072E693;
+			remoteInfo = EzFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91D446EC1EC15BC60072E693 /* EzFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D446EF1EC15BC60072E693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D446F11EC15BC60072E693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D446F41EC15BC60072E693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D446F61EC15BC60072E693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D446F91EC15BC60072E693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D446FB1EC15BC60072E693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D447001EC15BC60072E693 /* EzFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D447041EC15BC60072E693 /* EzFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFoodTests.swift; sourceTree = "<group>"; };
+		91D447061EC15BC60072E693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D4470B1EC15BC60072E693 /* EzFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D4470F1EC15BC60072E693 /* EzFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFoodUITests.swift; sourceTree = "<group>"; };
+		91D447111EC15BC60072E693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D446E91EC15BC50072E693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D446FD1EC15BC60072E693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D447081EC15BC60072E693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D446E31EC15BC50072E693 = {
+			isa = PBXGroup;
+			children = (
+				91D446EE1EC15BC60072E693 /* EzFood */,
+				91D447031EC15BC60072E693 /* EzFoodTests */,
+				91D4470E1EC15BC60072E693 /* EzFoodUITests */,
+				91D446ED1EC15BC60072E693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D446ED1EC15BC60072E693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D446EC1EC15BC60072E693 /* EzFood.app */,
+				91D447001EC15BC60072E693 /* EzFoodTests.xctest */,
+				91D4470B1EC15BC60072E693 /* EzFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D446EE1EC15BC60072E693 /* EzFood */ = {
+			isa = PBXGroup;
+			children = (
+				91D446EF1EC15BC60072E693 /* AppDelegate.swift */,
+				91D446F11EC15BC60072E693 /* ViewController.swift */,
+				91D446F31EC15BC60072E693 /* Main.storyboard */,
+				91D446F61EC15BC60072E693 /* Assets.xcassets */,
+				91D446F81EC15BC60072E693 /* LaunchScreen.storyboard */,
+				91D446FB1EC15BC60072E693 /* Info.plist */,
+			);
+			path = EzFood;
+			sourceTree = "<group>";
+		};
+		91D447031EC15BC60072E693 /* EzFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D447041EC15BC60072E693 /* EzFoodTests.swift */,
+				91D447061EC15BC60072E693 /* Info.plist */,
+			);
+			path = EzFoodTests;
+			sourceTree = "<group>";
+		};
+		91D4470E1EC15BC60072E693 /* EzFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D4470F1EC15BC60072E693 /* EzFoodUITests.swift */,
+				91D447111EC15BC60072E693 /* Info.plist */,
+			);
+			path = EzFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D446EB1EC15BC50072E693 /* EzFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D447141EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFood" */;
+			buildPhases = (
+				91D446E81EC15BC50072E693 /* Sources */,
+				91D446E91EC15BC50072E693 /* Frameworks */,
+				91D446EA1EC15BC50072E693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzFood;
+			productName = EzFood;
+			productReference = 91D446EC1EC15BC60072E693 /* EzFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D446FF1EC15BC60072E693 /* EzFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D447171EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFoodTests" */;
+			buildPhases = (
+				91D446FC1EC15BC60072E693 /* Sources */,
+				91D446FD1EC15BC60072E693 /* Frameworks */,
+				91D446FE1EC15BC60072E693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D447021EC15BC60072E693 /* PBXTargetDependency */,
+			);
+			name = EzFoodTests;
+			productName = EzFoodTests;
+			productReference = 91D447001EC15BC60072E693 /* EzFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D4470A1EC15BC60072E693 /* EzFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D4471A1EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFoodUITests" */;
+			buildPhases = (
+				91D447071EC15BC60072E693 /* Sources */,
+				91D447081EC15BC60072E693 /* Frameworks */,
+				91D447091EC15BC60072E693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D4470D1EC15BC60072E693 /* PBXTargetDependency */,
+			);
+			name = EzFoodUITests;
+			productName = EzFoodUITests;
+			productReference = 91D4470B1EC15BC60072E693 /* EzFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D446E41EC15BC50072E693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Moza;
+				TargetAttributes = {
+					91D446EB1EC15BC50072E693 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					91D446FF1EC15BC60072E693 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D446EB1EC15BC50072E693;
+					};
+					91D4470A1EC15BC60072E693 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D446EB1EC15BC50072E693;
+					};
+				};
+			};
+			buildConfigurationList = 91D446E71EC15BC50072E693 /* Build configuration list for PBXProject "EzFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D446E31EC15BC50072E693;
+			productRefGroup = 91D446ED1EC15BC60072E693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D446EB1EC15BC50072E693 /* EzFood */,
+				91D446FF1EC15BC60072E693 /* EzFoodTests */,
+				91D4470A1EC15BC60072E693 /* EzFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D446EA1EC15BC50072E693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D446FA1EC15BC60072E693 /* LaunchScreen.storyboard in Resources */,
+				91D446F71EC15BC60072E693 /* Assets.xcassets in Resources */,
+				91D446F51EC15BC60072E693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D446FE1EC15BC60072E693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D447091EC15BC60072E693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D446E81EC15BC50072E693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D446F21EC15BC60072E693 /* ViewController.swift in Sources */,
+				91D446F01EC15BC60072E693 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D446FC1EC15BC60072E693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D447051EC15BC60072E693 /* EzFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D447071EC15BC60072E693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D447101EC15BC60072E693 /* EzFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D447021EC15BC60072E693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D446EB1EC15BC50072E693 /* EzFood */;
+			targetProxy = 91D447011EC15BC60072E693 /* PBXContainerItemProxy */;
+		};
+		91D4470D1EC15BC60072E693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D446EB1EC15BC50072E693 /* EzFood */;
+			targetProxy = 91D4470C1EC15BC60072E693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D446F31EC15BC60072E693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D446F41EC15BC60072E693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D446F81EC15BC60072E693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D446F91EC15BC60072E693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D447121EC15BC60072E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91D447131EC15BC60072E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D447151EC15BC60072E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91D447161EC15BC60072E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91D447181EC15BC60072E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFood.app/EzFood";
+			};
+			name = Debug;
+		};
+		91D447191EC15BC60072E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzFood.app/EzFood";
+			};
+			name = Release;
+		};
+		91D4471B1EC15BC60072E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EzFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EzFood;
+			};
+			name = Debug;
+		};
+		91D4471C1EC15BC60072E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EzFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tek4Fun.EzFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EzFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D446E71EC15BC50072E693 /* Build configuration list for PBXProject "EzFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D447121EC15BC60072E693 /* Debug */,
+				91D447131EC15BC60072E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D447141EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D447151EC15BC60072E693 /* Debug */,
+				91D447161EC15BC60072E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91D447171EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D447181EC15BC60072E693 /* Debug */,
+				91D447191EC15BC60072E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91D4471A1EC15BC60072E693 /* Build configuration list for PBXNativeTarget "EzFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D4471B1EC15BC60072E693 /* Debug */,
+				91D4471C1EC15BC60072E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D446E41EC15BC50072E693 /* Project object */;
+}
